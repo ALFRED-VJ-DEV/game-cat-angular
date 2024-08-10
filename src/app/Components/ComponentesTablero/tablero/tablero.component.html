@@ -5,3 +5,9 @@
       </div>
   </div>
 </div>
+
+<div *ngIf="showModal" class="modal">
+  <app-modal></app-modal>
+</div>
+
+<div class="test-opacidad" *ngIf="showModal" (click)="closeModal()"></div>

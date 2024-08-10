@@ -11,6 +11,7 @@ import { TerminarJuegoComponent } from './Components/Componente-control-juego/Co
 import { DesacerJugadaComponent } from './Components/Componente-control-juego/ComponenteControles/desacer-jugada/desacer-jugada.component';
 import { ControlesMaestroComponent } from './Components/Componente-control-juego/controles-maestro/controles-maestro.component';
 import { CasillasComponent } from './Components/ComponentesTablero/casillas/casillas.component';
+import { ModalComponent } from './Components/ComponentesComunes/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CasillasComponent } from './Components/ComponentesTablero/casillas/casi
     TerminarJuegoComponent,
     DesacerJugadaComponent,
     ControlesMaestroComponent,
-    CasillasComponent
+    CasillasComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,

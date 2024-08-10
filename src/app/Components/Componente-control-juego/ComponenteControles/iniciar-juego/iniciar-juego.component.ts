@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TableroService } from '../../../ComponentesTablero/Services/tablero.service';
 
 @Component({
   selector: 'app-iniciar-juego',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class IniciarJuegoComponent {
 
+  constructor(private tableroService: TableroService) {}
+
+  startGame():void{
+    this.tableroService.showModal();
+  }
 }
