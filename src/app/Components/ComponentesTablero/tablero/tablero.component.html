@@ -1,0 +1,7 @@
+<div class="container-tablero">
+  <div class="item" *ngFor="let c of itemFilas" (click)="selectCasilla(c)">
+      <div>
+        <app-casillas [casilla]="c"></app-casillas>
+      </div>
+  </div>
+</div>
