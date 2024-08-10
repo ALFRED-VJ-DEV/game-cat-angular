@@ -2,9 +2,18 @@
   display: flex;
 }
 .tablero{
-  width: 80%;
+  width: 75%;
+  margin-top: 50px;
 }
 .sidebar{
-  background: rgb(68, 69, 68);
-  width: 20%;
+  background: rgb(39, 59, 67);
+  width: 25%;
+  height: 100dvh;
+}
+.title{
+  background: rgb(39, 59, 67);
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
